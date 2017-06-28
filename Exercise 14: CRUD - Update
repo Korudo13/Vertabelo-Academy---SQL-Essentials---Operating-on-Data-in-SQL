@@ -1,0 +1,13 @@
+------------
+Instructions
+------------
+
+Doberge Cake (id 3) in our table is too expensive and customers don't want to buy it. Let's modify the price to 10.
+
+----------
+Code
+-----------
+
+UPDATE dish
+SET price = 10
+WHERE id = 3
