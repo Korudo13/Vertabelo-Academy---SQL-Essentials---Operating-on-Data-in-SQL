@@ -1,0 +1,13 @@
+------------
+Instructions
+------------
+
+Oysters Bienville (id 1) aren't really popular. Let's remove them from the menu.
+
+----------
+Code
+-----------
+
+DELETE FROM dish
+
+WHERE id = 1
