@@ -1,0 +1,14 @@
+------------
+Instructions
+------------
+
+A lot of Czech tourists are now coming to the restaurant and they would like to try some of their national dishes. 
+
+Let's give them a main course Gulas s knedlikem (id 11, price 29), and a dessert Vosi Hnizda (id 12, price 14).
+
+----------
+Code
+-----------
+
+INSERT INTO dish
+VALUES (11, 'main course', 'Gulas s knedlikem', 29), (12, 'dessert', 'Vosi Hnizda', 14)
