@@ -1,0 +1,13 @@
+------------
+Instructions
+------------
+
+The restaurant owners have already started to build up their new Creole menu. 
+Let's help them by adding a new main course Rice and Gravy with the id 4, priced at 28.
+
+----------
+Code
+-----------
+
+INSERT INTO dish
+VALUES (4, 'main course', 'Rice and Gravy', 28)
