@@ -1,0 +1,12 @@
+------------
+Instructions
+------------
+
+Add the starter Kosovo Bread with id 10 again into table dish . This time, explicitly insert NULL value into column price.
+
+----------
+Code
+-----------
+
+INSERT INTO dish 
+VALUES (10, 'starter', 'Kosovo Bread', null)
