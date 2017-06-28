@@ -1,0 +1,13 @@
+------------
+Instructions
+------------
+
+The restaurant owners decided to introduce some Balkan cuisine, so we need to refresh the menu a little bit.
+
+Add a dish called Cevapcici with id 9 and price 27. It's a main course.
+
+----------
+Code
+-----------
+
+INSERT INTO dish VALUES (9, 'main course', 'Cevapcici', 27)
