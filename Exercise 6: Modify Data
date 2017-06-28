@@ -1,0 +1,16 @@
+------------
+Instructions
+------------
+
+The owners of the restaurant complain that the item with the id 2 sells poorly. 
+This might be because Spring Scrolls don't really sound like something particularly edible.
+
+Correct the name and change it to Spring Rolls.
+
+----------
+Code
+-----------
+
+UPDATE dish 
+SET name = 'Spring Rolls'
+WHERE id = 2
