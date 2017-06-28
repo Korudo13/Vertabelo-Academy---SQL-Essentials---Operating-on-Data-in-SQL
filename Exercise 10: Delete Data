@@ -1,0 +1,12 @@
+------------
+Instructions
+------------
+
+Oops, we've run out of sugar! Delete all desserts from our menu.
+
+----------
+Code
+-----------
+
+DELETE FROM dish
+WHERE type = 'dessert'
