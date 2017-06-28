@@ -1,0 +1,16 @@
+------------
+Instructions
+------------
+
+Spring Rolls now sell like crazy and nobody's interested in Prawn Salad (id 1) anymore. 
+We need to change its name to something more exotic. Let's try Green Sea Dragon.
+
+Apart from that, set the price at 10 to encourage customers to try the new old dish.
+
+----------
+Code
+-----------
+
+UPDATE dish
+SET name = 'Green Sea Dragon', price = 10
+WHERE id = 1
