@@ -1,0 +1,13 @@
+------------
+Instructions
+------------
+
+Happy hours at our restaurant! Change the price of all main courses to 20.
+
+----------
+Code
+-----------
+
+UPDATE dish
+SET price = 20
+WHERE type = 'main course'
