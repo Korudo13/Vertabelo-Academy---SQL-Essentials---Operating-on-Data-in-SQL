@@ -1,0 +1,12 @@
+------------
+Instructions
+------------
+
+Add your favorite dish to the menu! It can be anything you like. Just be reasonable with the price and set the id to 13.
+
+----------
+Code
+-----------
+
+INSERT INTO dish
+VALUES(13, 'main course', 'Chicken Piccata', 999999)
