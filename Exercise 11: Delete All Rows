@@ -1,0 +1,14 @@
+------------
+Instructions
+------------
+
+The owners finally decided on a single cuisine. 
+They want to serve Creole dishes so delete all the data from the table dish to make room for new meals.
+
+----------
+Code
+-----------
+
+DELETE FROM dish
+
+-- probably won't do this too much without a WHERE clause...
