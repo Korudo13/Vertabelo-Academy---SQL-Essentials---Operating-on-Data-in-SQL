@@ -1,0 +1,13 @@
+------------
+Instructions
+------------
+
+Many customers complain that Chicken Nuggets (id 5) are too simple and that they don't fit the sophisticated menu. 
+We haven't got a new idea yet, but for the time being, delete the dish from the menu.
+
+----------
+Code
+-----------
+
+DELETE FROM dish
+WHERE name = 'Chicken Nuggets'
