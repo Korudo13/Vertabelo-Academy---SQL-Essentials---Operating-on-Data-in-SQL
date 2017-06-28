@@ -1,0 +1,13 @@
+------------
+Instructions
+------------
+
+Balkan cuisine is getting popular, so we need another Balkan item on the menu.
+
+Add Kosovo Bread with id 10, it's a starter. We have yet to decide on the price, so omit it for now.
+
+----------
+Code
+-----------
+
+INSERT INTO dish (id, type, name) VALUES (10, 'starter', 'Kosovo Bread')
