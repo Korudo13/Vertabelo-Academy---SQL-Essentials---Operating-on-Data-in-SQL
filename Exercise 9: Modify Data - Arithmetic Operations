@@ -1,0 +1,16 @@
+------------
+Instructions
+------------
+
+The restaurant owners think the starters are so delicious and popular that they should be much more expensive. 
+Try multiplying their prices by 2.
+
+Think in advance: what will be the price of Kosovo Bread after the change? Remember to check if your guess was correct!
+
+----------
+Code
+-----------
+
+UPDATE dish
+SET price = price * 2
+WHERE type = 'starter'
